@@ -46,19 +46,44 @@ function RecipeCreate({ createRecipe }) {
         <tbody>
           <tr>
             <td>
-              <input name="name" value={name} onChange={handleChange} />
+              <input
+                name="name"
+                value={name}
+                placeholder="Name"
+                onChange={handleChange}
+              />
             </td>
             <td>
-              <input name="cuisine" value={cuisine} onChange={handleChange} />
+              <input
+                name="cuisine"
+                value={cuisine}
+                placeholder="Cuisine"
+                onChange={handleChange}
+              />
             </td>
             <td>
-              <input name="photo" value={photo} onChange={handleChange} />
+              <input
+                name="photo"
+                value={photo}
+                placeholder="URL"
+                onChange={handleChange}
+              />
             </td>
             <td>
-              <textarea name="ingredients" value={ingredients} onChange={handleChange} />
+              <textarea
+                name="ingredients"
+                value={ingredients}
+                placeholder="Ingredients"
+                onChange={handleChange}
+              />
             </td>
             <td>
-              <textarea name="preparation" value={preparation} onChange={handleChange} />
+              <textarea
+                name="preparation"
+                value={preparation}
+                placeholder="Preparation"
+                onChange={handleChange}
+              />
             </td>
             <td>
               <button type="submit">Create</button>
